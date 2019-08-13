@@ -3,3 +3,67 @@ a simple exercise that gets you started when learning something new.Let's get
 started with GitHub!
 
 You'll learn how to :
+1.Create and use a repository
+2.Start and manage a new branch
+3.Make changes to a file and push them to GitHub as commits
+4.Open and merge a pull requset
+
+What is GitHub?
+GitHub is a code hosting platform for version control and collaboration.It
+lets you and others work together on projects from anywhere.
+
+This tutorial traches you GitHub essentials like repositories,branches,
+commits,and Pull Request.You'll create your own Hello World reposity
+ and learn GitHub's Pull Request workflow,a popular way to create and review code.
+
+ No coding necessary
+
+ To complete this tutorial,you need a  GitHub.com account and internet
+ access.You don't need to know how to code,use the command line,or
+ install Git(the version control software GitHub is built on ).
+ Tip:Open this guide in a separarte browser window(or tab)so you can
+ see it while you complete the steps in the tutorial.
+
+ Step1.Create a Repository
+ A repository is usually used to organize a single project.Repositories can
+ contain folders and files, images ,videos,speradsheets,and data sets-anything
+  your prject needs.We recommend including a README,or a file with information about
+  project.GitHub make it easy to add one at the same time you create your new repository.
+  it also offers other common options such as a license file.
+
+  Your hello-world repository can be a place where you store ideas,resources,or even
+  share and discuss things with others.
+
+  To create a new repository
+  1.in the upper right corner,next to your avatar or identicon,clik + and
+  then select New repository.
+  2.Name your short description.
+  3.Select Initialize this repository with a REANME.
+  last  Click Create repository.
+
+  Step2.Create a Brach
+  Branching is the way to work on different version of a repository at one time .
+  By default your repository has one branch named master which is considered to be the
+  definitive brach.We use branches to experiment and make edits before committing them
+  to master.
+  When you create a branch off the master branch ,you're making a  copy, or snapshot,
+  as it was at that point in time.if someone else made changes to the master branch while
+  you were working on your branch,you could pull in those updates.
+
+  This diagram shows:
+  1.The master branch
+  2.A new brach called feature (because we're doing "featrue work"on this branch)
+  3.This journey that feature take before it's merged into master
+  Have you ever saved different versions of a  file? Something like:
+  1.story.txt
+  2.story-joe-edit.txt
+  3.story-joe-edit-reviewed.txt
+  Branches accomplish similar goals in GitHub repositories.
+  Here at GitHub,our developers ,writes,and designers use branches for keeping bug fixes and
+  feature  work separate from our master
+  (production)branch.When a change is ready ,they merge their branch into master.
+  To create a new branch
+  1.Go to your new repository hello-world.
+  2.Click the drop down at the top of the file list that says branch:master.
+  3.Type a branch name,readme-edits,into the new branch text box.
+  4.Select the blue Create branch box or hit"Enter"on your keykoard.
