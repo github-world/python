@@ -5,12 +5,12 @@
 # print(y1 % 200 ==0)
 # y2=2300
 # print(y2 %4 == 0 and y2 % 100 !=0)
+#闰年计算
 
-
-year = input('')
-if a % 400 == 0:
-    print('case1:%d is leap year'% a)
-elif a % 4 == 0 and a % 100 != 0:
-    print('case2:%d is leap year'% a)
+year = 2005
+if year % 400 == 0:
+    print('case1:%d is leap year' % year)
+elif year % 4 == 0 and year % 100 != 0:
+    print('case2:%d is leap year' % year)
 else:
-    prin year'% a)
+    print('cast3:%d is not leap year' % year)
