@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # __author__ = "Q1mi"
 # Date: 2019-08-19
+'''
 i = 1
 while i < 5:
     print(i)
@@ -19,4 +20,16 @@ while True:
         #输入q,退出当前循环。
         break
 
-
+'''
+import random
+num = random.randint(1,10)
+while True:
+    value = input('Enter:')
+    value = int(value)
+    if value > num:
+        print('big')
+    elif value < num:
+        print("small")
+    else:
+        print("guess right!")
+        break
